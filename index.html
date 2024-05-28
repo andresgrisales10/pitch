@@ -1,0 +1,2265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_16ca6e8cd4930974d5141b41de283458 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_16ca6e8cd4930974d5141b41de283458" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_16ca6e8cd4930974d5141b41de283458 = L.map(
+                "map_16ca6e8cd4930974d5141b41de283458",
+                {
+                    center: [4.60971, -74.08175],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_524eefef72a8b911a6ae252cf78efe7b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_524eefef72a8b911a6ae252cf78efe7b.addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var marker_e814eacc8d1c99cf0b6de84b749fda66 = L.marker(
+                [4.75697, -74.06082],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_77767c7c92f6057cdccc16011141afdf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e814eacc8d1c99cf0b6de84b749fda66.setIcon(icon_77767c7c92f6057cdccc16011141afdf);
+        
+    
+        var popup_a247387572d4a23e40f046672c14caa9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4194384810d4fcae7cf64a723a36ccb3 = $(`<div id="html_4194384810d4fcae7cf64a723a36ccb3" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL CENCOSUD CALLE 170<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_a247387572d4a23e40f046672c14caa9.setContent(html_4194384810d4fcae7cf64a723a36ccb3);
+            
+        
+
+        marker_e814eacc8d1c99cf0b6de84b749fda66.bindPopup(popup_a247387572d4a23e40f046672c14caa9)
+        ;
+
+        
+    
+    
+            var marker_5ced387fa653a39fe858e9f6333c408d = L.marker(
+                [4.5465, -74.13724],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_5ec65605f21ce9fec3efd77257422c53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5ced387fa653a39fe858e9f6333c408d.setIcon(icon_5ec65605f21ce9fec3efd77257422c53);
+        
+    
+        var popup_245889e2591f4d54488228388aec3ec7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7880d44a2adebfc78d44f5a107f3c237 = $(`<div id="html_7880d44a2adebfc78d44f5a107f3c237" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL GANADERO<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_245889e2591f4d54488228388aec3ec7.setContent(html_7880d44a2adebfc78d44f5a107f3c237);
+            
+        
+
+        marker_5ced387fa653a39fe858e9f6333c408d.bindPopup(popup_245889e2591f4d54488228388aec3ec7)
+        ;
+
+        
+    
+    
+            var marker_4e09b239d06df054475f1428e7d83a5a = L.marker(
+                [4.7063204, -74.054594],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_06f6423217411c9789f7a0c93c436767 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4e09b239d06df054475f1428e7d83a5a.setIcon(icon_06f6423217411c9789f7a0c93c436767);
+        
+    
+        var popup_acaa97dae0be9a72746b21b057a3e687 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8af2f238b2ba295ed74c9c4b41c8a0b6 = $(`<div id="html_8af2f238b2ba295ed74c9c4b41c8a0b6" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL PLAZA 127<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_acaa97dae0be9a72746b21b057a3e687.setContent(html_8af2f238b2ba295ed74c9c4b41c8a0b6);
+            
+        
+
+        marker_4e09b239d06df054475f1428e7d83a5a.bindPopup(popup_acaa97dae0be9a72746b21b057a3e687)
+        ;
+
+        
+    
+    
+            var marker_e19ec1dfdaf49dea5ff40f702c693df3 = L.marker(
+                [4.614234, -74.150711],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_d5322e51b52cc512b76d22ea613ae09a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7bfa6ce52f0e856ade8ba62c87236d5e = $(`<div id="html_7bfa6ce52f0e856ade8ba62c87236d5e" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL ESTRELLITA<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_d5322e51b52cc512b76d22ea613ae09a.setContent(html_7bfa6ce52f0e856ade8ba62c87236d5e);
+            
+        
+
+        marker_e19ec1dfdaf49dea5ff40f702c693df3.bindPopup(popup_d5322e51b52cc512b76d22ea613ae09a)
+        ;
+
+        
+    
+    
+            var marker_282f4fa81d7246b829dce2eb36344630 = L.marker(
+                [4.755397, -74.080105],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_5e1efa2631762d782c6975402f1a83ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_282f4fa81d7246b829dce2eb36344630.setIcon(icon_5e1efa2631762d782c6975402f1a83ee);
+        
+    
+        var popup_88b1959952c718fe0d03764eb4f53305 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c61754d89a550029b2b383f2f9cddd55 = $(`<div id="html_c61754d89a550029b2b383f2f9cddd55" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL ACAPULCO<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_88b1959952c718fe0d03764eb4f53305.setContent(html_c61754d89a550029b2b383f2f9cddd55);
+            
+        
+
+        marker_282f4fa81d7246b829dce2eb36344630.bindPopup(popup_88b1959952c718fe0d03764eb4f53305)
+        ;
+
+        
+    
+    
+            var marker_989138179a04364503d0927f701c7347 = L.marker(
+                [1.999, 12.999],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_e20ea55ee188f017b7e9fca95a245647 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f5356424e57bda0a0289da2bce5ad707 = $(`<div id="html_f5356424e57bda0a0289da2bce5ad707" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         PANAMCO BOGOTA NORTE<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_e20ea55ee188f017b7e9fca95a245647.setContent(html_f5356424e57bda0a0289da2bce5ad707);
+            
+        
+
+        marker_989138179a04364503d0927f701c7347.bindPopup(popup_e20ea55ee188f017b7e9fca95a245647)
+        ;
+
+        
+    
+    
+            var marker_5735089c906c4605d99f09606db3854f = L.marker(
+                [4.622549, -74.124606],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_127bee11739b63a2ce22117e900da75d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5735089c906c4605d99f09606db3854f.setIcon(icon_127bee11739b63a2ce22117e900da75d);
+        
+    
+        var popup_386b2a993f127ef01e817f1f5443b33a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6598ea7d58de9077577371e5c3ffc87f = $(`<div id="html_6598ea7d58de9077577371e5c3ffc87f" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL TRINIDAD<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_386b2a993f127ef01e817f1f5443b33a.setContent(html_6598ea7d58de9077577371e5c3ffc87f);
+            
+        
+
+        marker_5735089c906c4605d99f09606db3854f.bindPopup(popup_386b2a993f127ef01e817f1f5443b33a)
+        ;
+
+        
+    
+    
+            var marker_d106b6e45503ffb78a49019ac161d3f1 = L.marker(
+                [1.999, 1.999],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_d232794ecfc7b308ca7b551b932236b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d106b6e45503ffb78a49019ac161d3f1.setIcon(icon_d232794ecfc7b308ca7b551b932236b6);
+        
+    
+        var popup_f83d683f1c46f9f1e1ef8137c0c3c2e1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_956b9fbd8f096af6b30fdd7637b474bb = $(`<div id="html_956b9fbd8f096af6b30fdd7637b474bb" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         PANAMCO BOGOTA SUR<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_f83d683f1c46f9f1e1ef8137c0c3c2e1.setContent(html_956b9fbd8f096af6b30fdd7637b474bb);
+            
+        
+
+        marker_d106b6e45503ffb78a49019ac161d3f1.bindPopup(popup_f83d683f1c46f9f1e1ef8137c0c3c2e1)
+        ;
+
+        
+    
+    
+            var marker_19ae2d480348e00c4491176f21201b61 = L.marker(
+                [4.693461, -74.091403],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_453cb452e13b02f7032501aed0185f66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_19ae2d480348e00c4491176f21201b61.setIcon(icon_453cb452e13b02f7032501aed0185f66);
+        
+    
+        var popup_19df6a287f2370ae1e0dfcd9d721a686 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bbbefacfc0573cb6cccd94acbf7f77ab = $(`<div id="html_bbbefacfc0573cb6cccd94acbf7f77ab" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL AV BOYACA<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_19df6a287f2370ae1e0dfcd9d721a686.setContent(html_bbbefacfc0573cb6cccd94acbf7f77ab);
+            
+        
+
+        marker_19ae2d480348e00c4491176f21201b61.bindPopup(popup_19df6a287f2370ae1e0dfcd9d721a686)
+        ;
+
+        
+    
+    
+            var marker_8ba6f60a10cb0807b9fe8ba2069d7eee = L.marker(
+                [4.677413, -74.115964],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_1cff4b67e9d3896209fc221917b2b1cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8ba6f60a10cb0807b9fe8ba2069d7eee.setIcon(icon_1cff4b67e9d3896209fc221917b2b1cd);
+        
+    
+        var popup_f7a5c8b1df56ae2f0253c52029e06021 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1f876fe7a8d384cb4805a064705d09d7 = $(`<div id="html_1f876fe7a8d384cb4805a064705d09d7" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL SAN CAYETANO CON CALLE 26<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_f7a5c8b1df56ae2f0253c52029e06021.setContent(html_1f876fe7a8d384cb4805a064705d09d7);
+            
+        
+
+        marker_8ba6f60a10cb0807b9fe8ba2069d7eee.bindPopup(popup_f7a5c8b1df56ae2f0253c52029e06021)
+        ;
+
+        
+    
+    
+            var marker_bd97b5f884ac8a8d1fbde52c2a0a080c = L.marker(
+                [4.741312, -74.09005],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_147f0d3bb45d9340fd0c816a8a08ae98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bd97b5f884ac8a8d1fbde52c2a0a080c.setIcon(icon_147f0d3bb45d9340fd0c816a8a08ae98);
+        
+    
+        var popup_b5e103f538e2acb562a9852c20401c37 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a2e798b8f3c398659bccb48ae8f8f666 = $(`<div id="html_a2e798b8f3c398659bccb48ae8f8f666" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL CONEJERA.<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_b5e103f538e2acb562a9852c20401c37.setContent(html_a2e798b8f3c398659bccb48ae8f8f666);
+            
+        
+
+        marker_bd97b5f884ac8a8d1fbde52c2a0a080c.bindPopup(popup_b5e103f538e2acb562a9852c20401c37)
+        ;
+
+        
+    
+    
+            var marker_9c17005829bf60486eaaa1a5c514d8b7 = L.marker(
+                [4.580624, -74.154859],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_899d717cdb7f6caf4a114f8710cbd481 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9c17005829bf60486eaaa1a5c514d8b7.setIcon(icon_899d717cdb7f6caf4a114f8710cbd481);
+        
+    
+        var popup_9c0af65fd5fe963c8d9b44dccdc8ece9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8110567182838ddba2aa7bf132b0c002 = $(`<div id="html_8110567182838ddba2aa7bf132b0c002" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL LAS VEGAS<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_9c0af65fd5fe963c8d9b44dccdc8ece9.setContent(html_8110567182838ddba2aa7bf132b0c002);
+            
+        
+
+        marker_9c17005829bf60486eaaa1a5c514d8b7.bindPopup(popup_9c0af65fd5fe963c8d9b44dccdc8ece9)
+        ;
+
+        
+    
+    
+            var marker_2d91b03d7995bc5e5a0c390df8769db2 = L.marker(
+                [4.602183, -74.133397],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_359b613eff45fd22da68678f8b807f16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2d91b03d7995bc5e5a0c390df8769db2.setIcon(icon_359b613eff45fd22da68678f8b807f16);
+        
+    
+        var popup_2cfff9f42111afcdb7a4103a9f637b9f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cfb3cfb7e02e5ea7abd49576f1952871 = $(`<div id="html_cfb3cfb7e02e5ea7abd49576f1952871" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL ALQUERIA<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_2cfff9f42111afcdb7a4103a9f637b9f.setContent(html_cfb3cfb7e02e5ea7abd49576f1952871);
+            
+        
+
+        marker_2d91b03d7995bc5e5a0c390df8769db2.bindPopup(popup_2cfff9f42111afcdb7a4103a9f637b9f)
+        ;
+
+        
+    
+    
+            var marker_81fcc87f0b6e64845dc9fd02ccfaa95f = L.marker(
+                [4.639717, -74.156677],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_9a32a3dce4bd6bf443acfa7b2c82a6a7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a263366d288d9d81431f941be8645899 = $(`<div id="html_a263366d288d9d81431f941be8645899" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL LA AUTOMOTRIZ MARIANA<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_9a32a3dce4bd6bf443acfa7b2c82a6a7.setContent(html_a263366d288d9d81431f941be8645899);
+            
+        
+
+        marker_81fcc87f0b6e64845dc9fd02ccfaa95f.bindPopup(popup_9a32a3dce4bd6bf443acfa7b2c82a6a7)
+        ;
+
+        
+    
+    
+            var marker_58a78c2244ad506d616b0807c285ff44 = L.marker(
+                [4.593116, -74.091003],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_ff1401f4f73274442cb6c8c0bcb15900 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_58a78c2244ad506d616b0807c285ff44.setIcon(icon_ff1401f4f73274442cb6c8c0bcb15900);
+        
+    
+        var popup_eb369a5a3ed71c6876b55f21334058f4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6fb684115e23997f4dca5dffadfd502f = $(`<div id="html_6fb684115e23997f4dca5dffadfd502f" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL REAL TRANSPORTADORA<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_eb369a5a3ed71c6876b55f21334058f4.setContent(html_6fb684115e23997f4dca5dffadfd502f);
+            
+        
+
+        marker_58a78c2244ad506d616b0807c285ff44.bindPopup(popup_eb369a5a3ed71c6876b55f21334058f4)
+        ;
+
+        
+    
+    
+            var marker_bc410afc7a4b9e7ae13e3f603e7f9137 = L.marker(
+                [4.699428, -74.111197],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_7a16ba65bfbc8cf0bd3a151e088be8dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bc410afc7a4b9e7ae13e3f603e7f9137.setIcon(icon_7a16ba65bfbc8cf0bd3a151e088be8dd);
+        
+    
+        var popup_04c99db240a8d049e11300f29b2c7a8a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_935b4be1e37b518e46f7426445f0bdbf = $(`<div id="html_935b4be1e37b518e46f7426445f0bdbf" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL ALAMOS<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_04c99db240a8d049e11300f29b2c7a8a.setContent(html_935b4be1e37b518e46f7426445f0bdbf);
+            
+        
+
+        marker_bc410afc7a4b9e7ae13e3f603e7f9137.bindPopup(popup_04c99db240a8d049e11300f29b2c7a8a)
+        ;
+
+        
+    
+    
+            var marker_9b911fd00802b99fcbc38bad33b7cd9f = L.marker(
+                [4.65717, -74.13745],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_ed594f6855db510a9b5266d8bd984bd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9b911fd00802b99fcbc38bad33b7cd9f.setIcon(icon_ed594f6855db510a9b5266d8bd984bd0);
+        
+    
+        var popup_98818b54ecd091aac980992c7c1bc77d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b05b4cd96bbed44d63e4c7a9dddae5b2 = $(`<div id="html_b05b4cd96bbed44d63e4c7a9dddae5b2" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL CENCOSUD CIUDAD DE CALI<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_98818b54ecd091aac980992c7c1bc77d.setContent(html_b05b4cd96bbed44d63e4c7a9dddae5b2);
+            
+        
+
+        marker_9b911fd00802b99fcbc38bad33b7cd9f.bindPopup(popup_98818b54ecd091aac980992c7c1bc77d)
+        ;
+
+        
+    
+    
+            var marker_eeb61d69a2d2326dec46616b3115ebe0 = L.marker(
+                [4.59662, -74.18122],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_9fcf47f7bcf064bc149ef6e7ccb47d19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_eeb61d69a2d2326dec46616b3115ebe0.setIcon(icon_9fcf47f7bcf064bc149ef6e7ccb47d19);
+        
+    
+        var popup_68e914af76c9d6f0d27289af9adfe0b3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_349a6e11b3d5b0439e5e2e46878d9821 = $(`<div id="html_349a6e11b3d5b0439e5e2e46878d9821" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL CENCOSUD AUTOPISTA SUR<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_68e914af76c9d6f0d27289af9adfe0b3.setContent(html_349a6e11b3d5b0439e5e2e46878d9821);
+            
+        
+
+        marker_eeb61d69a2d2326dec46616b3115ebe0.bindPopup(popup_68e914af76c9d6f0d27289af9adfe0b3)
+        ;
+
+        
+    
+    
+            var marker_2e96635c182327b290c3e93cc7111a47 = L.marker(
+                [4.5171987, -74.1199479],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_73c1b470a51b2046bad6b02ede99bb23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2e96635c182327b290c3e93cc7111a47.setIcon(icon_73c1b470a51b2046bad6b02ede99bb23);
+        
+    
+        var popup_895b38bd402f7f9a36e63cd8adb829fe = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_60ea3ccbe851190b92da6e96a7191d7c = $(`<div id="html_60ea3ccbe851190b92da6e96a7191d7c" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL EL RECUERDO<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_895b38bd402f7f9a36e63cd8adb829fe.setContent(html_60ea3ccbe851190b92da6e96a7191d7c);
+            
+        
+
+        marker_2e96635c182327b290c3e93cc7111a47.bindPopup(popup_895b38bd402f7f9a36e63cd8adb829fe)
+        ;
+
+        
+    
+    
+            var marker_17c8db3a76e1c8a758d42e9ee2d6ba24 = L.marker(
+                [4.625244, -74.09368],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_3eaa921747740312b3965c49a6318709 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_17c8db3a76e1c8a758d42e9ee2d6ba24.setIcon(icon_3eaa921747740312b3965c49a6318709);
+        
+    
+        var popup_58efeecf6b3adc0af34534082e8a7062 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b38fc80e3105e15f1bcc6ee8e2443d06 = $(`<div id="html_b38fc80e3105e15f1bcc6ee8e2443d06" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL AMERICAS<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_58efeecf6b3adc0af34534082e8a7062.setContent(html_b38fc80e3105e15f1bcc6ee8e2443d06);
+            
+        
+
+        marker_17c8db3a76e1c8a758d42e9ee2d6ba24.bindPopup(popup_58efeecf6b3adc0af34534082e8a7062)
+        ;
+
+        
+    
+    
+            var marker_910d71b32a695ebfc2075ec243737743 = L.marker(
+                [4.594413, -74.084236],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_2f2997a42e22b758b6815a4c8f3d5a5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_910d71b32a695ebfc2075ec243737743.setIcon(icon_2f2997a42e22b758b6815a4c8f3d5a5c);
+        
+    
+        var popup_927c1c48b18175c3622b6020b0e16a8b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_069d746e515fb0d1124ea2966bdb7e35 = $(`<div id="html_069d746e515fb0d1124ea2966bdb7e35" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS LIEVANO<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_927c1c48b18175c3622b6020b0e16a8b.setContent(html_069d746e515fb0d1124ea2966bdb7e35);
+            
+        
+
+        marker_910d71b32a695ebfc2075ec243737743.bindPopup(popup_927c1c48b18175c3622b6020b0e16a8b)
+        ;
+
+        
+    
+    
+            var marker_1e2062c0eb292e3da26ad6efdd540139 = L.marker(
+                [4.662323, -74.132791],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_51cd38ee377ffdc6206f9aec88b16e28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1e2062c0eb292e3da26ad6efdd540139.setIcon(icon_51cd38ee377ffdc6206f9aec88b16e28);
+        
+    
+        var popup_6063d31d119150909b1eae5d223a86fd = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1313cb28a237f3547c2d724b26bbf97c = $(`<div id="html_1313cb28a237f3547c2d724b26bbf97c" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL HAYUELOS CON AVENIDA CIUDAD DE CALI<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_6063d31d119150909b1eae5d223a86fd.setContent(html_1313cb28a237f3547c2d724b26bbf97c);
+            
+        
+
+        marker_1e2062c0eb292e3da26ad6efdd540139.bindPopup(popup_6063d31d119150909b1eae5d223a86fd)
+        ;
+
+        
+    
+    
+            var marker_7b6ce7694ab6e81c9d52b9c8a59e34da = L.marker(
+                [4.568216, -74.10105],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_cf85e53229b89838e361855598b9b105 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7b6ce7694ab6e81c9d52b9c8a59e34da.setIcon(icon_cf85e53229b89838e361855598b9b105);
+        
+    
+        var popup_0650de8a2b75f9ad496ccef41e27ac16 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f3dea179c6a5f5e44f9e41b23c1c3a36 = $(`<div id="html_f3dea179c6a5f5e44f9e41b23c1c3a36" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL CARRERA 10<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_0650de8a2b75f9ad496ccef41e27ac16.setContent(html_f3dea179c6a5f5e44f9e41b23c1c3a36);
+            
+        
+
+        marker_7b6ce7694ab6e81c9d52b9c8a59e34da.bindPopup(popup_0650de8a2b75f9ad496ccef41e27ac16)
+        ;
+
+        
+    
+    
+            var marker_47cef7c7a0175d24ebc3add3135df69a = L.marker(
+                [4.618111, -74.089909],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_26eacadfb7e136add30e08b573a89db4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1a668bc680824205ae0499b35b81d5e8 = $(`<div id="html_1a668bc680824205ae0499b35b81d5e8" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL CENTRO BOGOTA<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_26eacadfb7e136add30e08b573a89db4.setContent(html_1a668bc680824205ae0499b35b81d5e8);
+            
+        
+
+        marker_47cef7c7a0175d24ebc3add3135df69a.bindPopup(popup_26eacadfb7e136add30e08b573a89db4)
+        ;
+
+        
+    
+    
+            var marker_2d01969382321265e6d08312ac23072c = L.marker(
+                [4.631725026, -74.1666239],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_9e15ca7b596f7bed0f813257ef4bafa1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2d01969382321265e6d08312ac23072c.setIcon(icon_9e15ca7b596f7bed0f813257ef4bafa1);
+        
+    
+        var popup_dfa2f186109020b08acc0f355e6272d4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7f8d62a0a2571446ef78ba5d2694dd60 = $(`<div id="html_7f8d62a0a2571446ef78ba5d2694dd60" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL CENCOSUD TINTALITO<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_dfa2f186109020b08acc0f355e6272d4.setContent(html_7f8d62a0a2571446ef78ba5d2694dd60);
+            
+        
+
+        marker_2d01969382321265e6d08312ac23072c.bindPopup(popup_dfa2f186109020b08acc0f355e6272d4)
+        ;
+
+        
+    
+    
+            var marker_adf08eb3b2301a5dfe7a4d79f791bf76 = L.marker(
+                [4.594442, -74.096547],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_2904e0b0ad4c474b7c3776b23b28a92e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8ed131bbab2c5bdea2a17c95af0aac39 = $(`<div id="html_8ed131bbab2c5bdea2a17c95af0aac39" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL GARROLLANTAS<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_2904e0b0ad4c474b7c3776b23b28a92e.setContent(html_8ed131bbab2c5bdea2a17c95af0aac39);
+            
+        
+
+        marker_adf08eb3b2301a5dfe7a4d79f791bf76.bindPopup(popup_2904e0b0ad4c474b7c3776b23b28a92e)
+        ;
+
+        
+    
+    
+            var marker_8aad8e0a555625b43c32a05752ec1c3f = L.marker(
+                [4.6843877, -74.0581053],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_e054059758c8bcdd228d19d77fab96b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8aad8e0a555625b43c32a05752ec1c3f.setIcon(icon_e054059758c8bcdd228d19d77fab96b6);
+        
+    
+        var popup_bd37b33f42c51d55c3a4db8755725bdc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_07619df5d1d5794d2107c53cccbff3fa = $(`<div id="html_07619df5d1d5794d2107c53cccbff3fa" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL CALASANZ<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_bd37b33f42c51d55c3a4db8755725bdc.setContent(html_07619df5d1d5794d2107c53cccbff3fa);
+            
+        
+
+        marker_8aad8e0a555625b43c32a05752ec1c3f.bindPopup(popup_bd37b33f42c51d55c3a4db8755725bdc)
+        ;
+
+        
+    
+    
+            var marker_10f4a5786af403cd3d00acf40e367405 = L.marker(
+                [4.695002, -74.151725],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_5217bf718ab03c945d5c79e3ca2aac32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_10f4a5786af403cd3d00acf40e367405.setIcon(icon_5217bf718ab03c945d5c79e3ca2aac32);
+        
+    
+        var popup_db3e263779af266a3ac66504ca4dcb14 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_260fc3d5acace460ed2140df6ac43821 = $(`<div id="html_260fc3d5acace460ed2140df6ac43821" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL CATAM<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_db3e263779af266a3ac66504ca4dcb14.setContent(html_260fc3d5acace460ed2140df6ac43821);
+            
+        
+
+        marker_10f4a5786af403cd3d00acf40e367405.bindPopup(popup_db3e263779af266a3ac66504ca4dcb14)
+        ;
+
+        
+    
+    
+            var marker_4fcd717a22e2142710c5f0b10eae8dfd = L.marker(
+                [4.6659116, -74.0745027],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_bed0b2469e749047b687a0f4cd44e917 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4fcd717a22e2142710c5f0b10eae8dfd.setIcon(icon_bed0b2469e749047b687a0f4cd44e917);
+        
+    
+        var popup_24e3b02ac170406bcaef03fd24eaec5b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b8cd86d197047dd5343b3c04a084daa1 = $(`<div id="html_b8cd86d197047dd5343b3c04a084daa1" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL SAN JOSE DE QUITO<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_24e3b02ac170406bcaef03fd24eaec5b.setContent(html_b8cd86d197047dd5343b3c04a084daa1);
+            
+        
+
+        marker_4fcd717a22e2142710c5f0b10eae8dfd.bindPopup(popup_24e3b02ac170406bcaef03fd24eaec5b)
+        ;
+
+        
+    
+    
+            var marker_05bd85ad53dda0bede82847b4b4c9c5d = L.marker(
+                [4.549089, -74.089619],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_4ca99a94941a356e525316f865afd78b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_05bd85ad53dda0bede82847b4b4c9c5d.setIcon(icon_4ca99a94941a356e525316f865afd78b);
+        
+    
+        var popup_73008ca27e7163db97e6fd930797013a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b5834c1c77867c46140be2a94bb87e78 = $(`<div id="html_b5834c1c77867c46140be2a94bb87e78" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL LA HERRADURA<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_73008ca27e7163db97e6fd930797013a.setContent(html_b5834c1c77867c46140be2a94bb87e78);
+            
+        
+
+        marker_05bd85ad53dda0bede82847b4b4c9c5d.bindPopup(popup_73008ca27e7163db97e6fd930797013a)
+        ;
+
+        
+    
+    
+            var marker_6244a12733e8eabb43118d268a21591a = L.marker(
+                [4.628798, -74.111974],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_16d874e093336cbf6fc75e1fc85fcee0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_22f61f0416b4d11564713e457b4d7458 = $(`<div id="html_22f61f0416b4d11564713e457b4d7458" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL SAN ANDRES<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_16d874e093336cbf6fc75e1fc85fcee0.setContent(html_22f61f0416b4d11564713e457b4d7458);
+            
+        
+
+        marker_6244a12733e8eabb43118d268a21591a.bindPopup(popup_16d874e093336cbf6fc75e1fc85fcee0)
+        ;
+
+        
+    
+    
+            var marker_fda09e12d5dfd4fe9b0f636b1420dcbc = L.marker(
+                [4.6948965, -74.0683058],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_a30d1f8c53ca836991067a3f7f3e50d0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4bc9d5dad52953b7be9e7649995b1d2c = $(`<div id="html_4bc9d5dad52953b7be9e7649995b1d2c" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL SERVIRUEDAS<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_a30d1f8c53ca836991067a3f7f3e50d0.setContent(html_4bc9d5dad52953b7be9e7649995b1d2c);
+            
+        
+
+        marker_fda09e12d5dfd4fe9b0f636b1420dcbc.bindPopup(popup_a30d1f8c53ca836991067a3f7f3e50d0)
+        ;
+
+        
+    
+    
+            var marker_546bff65bb4e7be44acc7478450117d9 = L.marker(
+                [4.613032, -74.171566],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_d851c10fa1340eb0e7046cfdbb0c58bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_546bff65bb4e7be44acc7478450117d9.setIcon(icon_d851c10fa1340eb0e7046cfdbb0c58bd);
+        
+    
+        var popup_558ecab013b50a49df499c6ea455d0e7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f28d272fcb4e421b9ec5e3d1925eeb0b = $(`<div id="html_f28d272fcb4e421b9ec5e3d1925eeb0b" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL LA UNION ROMA<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_558ecab013b50a49df499c6ea455d0e7.setContent(html_f28d272fcb4e421b9ec5e3d1925eeb0b);
+            
+        
+
+        marker_546bff65bb4e7be44acc7478450117d9.bindPopup(popup_558ecab013b50a49df499c6ea455d0e7)
+        ;
+
+        
+    
+    
+            var marker_29073990fe7a1a238ddb5a597f82c638 = L.marker(
+                [4.65833, -74.05358],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_5e71fc819ab4570c3fc71f2e62a38bee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_29073990fe7a1a238ddb5a597f82c638.setIcon(icon_5e71fc819ab4570c3fc71f2e62a38bee);
+        
+    
+        var popup_2f6f8050315ec16c438c68a07539d383 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ef6d5ee90c8d56c0c77eea8844605839 = $(`<div id="html_ef6d5ee90c8d56c0c77eea8844605839" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDIFICIO DG<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_2f6f8050315ec16c438c68a07539d383.setContent(html_ef6d5ee90c8d56c0c77eea8844605839);
+            
+        
+
+        marker_29073990fe7a1a238ddb5a597f82c638.bindPopup(popup_2f6f8050315ec16c438c68a07539d383)
+        ;
+
+        
+    
+    
+            var marker_3c9f8d228b579b3f86322c5fb5a02e7e = L.marker(
+                [4.691415, -74.084567],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_10c9f231b615d98edb8951e8147ff63f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0c271ec2415494b66644b80726520ea8 = $(`<div id="html_0c271ec2415494b66644b80726520ea8" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL CENCOSUD - CALLE 80<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_10c9f231b615d98edb8951e8147ff63f.setContent(html_0c271ec2415494b66644b80726520ea8);
+            
+        
+
+        marker_3c9f8d228b579b3f86322c5fb5a02e7e.bindPopup(popup_10c9f231b615d98edb8951e8147ff63f)
+        ;
+
+        
+    
+    
+            var marker_a16f9cc2c7653cefee6cb6249ed46d25 = L.marker(
+                [4.7311085, -74.0242112],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_57126778a72ef7005365727ffbf119ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a16f9cc2c7653cefee6cb6249ed46d25.setIcon(icon_57126778a72ef7005365727ffbf119ec);
+        
+    
+        var popup_6b40d2ec2e49f62c62d2ef8aafe76c56 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cd707bf24ba0eddf871492d399c4232a = $(`<div id="html_cd707bf24ba0eddf871492d399c4232a" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL LA JUANA<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_6b40d2ec2e49f62c62d2ef8aafe76c56.setContent(html_cd707bf24ba0eddf871492d399c4232a);
+            
+        
+
+        marker_a16f9cc2c7653cefee6cb6249ed46d25.bindPopup(popup_6b40d2ec2e49f62c62d2ef8aafe76c56)
+        ;
+
+        
+    
+    
+            var marker_cf14d050b96c89ca04839c84156d257b = L.marker(
+                [4.604617, -74.124686],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_bb1a5d58e458c47e594ad43642238141 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cf14d050b96c89ca04839c84156d257b.setIcon(icon_bb1a5d58e458c47e594ad43642238141);
+        
+    
+        var popup_ed8e02d902d2216a251e504299fe9327 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ddad61868c1f893759938735ffeee89e = $(`<div id="html_ddad61868c1f893759938735ffeee89e" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL PRIMERO DE MAYO<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_ed8e02d902d2216a251e504299fe9327.setContent(html_ddad61868c1f893759938735ffeee89e);
+            
+        
+
+        marker_cf14d050b96c89ca04839c84156d257b.bindPopup(popup_ed8e02d902d2216a251e504299fe9327)
+        ;
+
+        
+    
+    
+            var marker_210b180d787a37cd860f4f4efd678152 = L.marker(
+                [4.568024, -74.125743],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_bb73eec96cef9dda24cba52fabbb61c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_210b180d787a37cd860f4f4efd678152.setIcon(icon_bb73eec96cef9dda24cba52fabbb61c4);
+        
+    
+        var popup_05cf7ec389d905ca75e181a2f226cfed = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e32349faf058d5f2f051115d4c6612a2 = $(`<div id="html_e32349faf058d5f2f051115d4c6612a2" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL CENCOSUD MARRUECOS<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_05cf7ec389d905ca75e181a2f226cfed.setContent(html_e32349faf058d5f2f051115d4c6612a2);
+            
+        
+
+        marker_210b180d787a37cd860f4f4efd678152.bindPopup(popup_05cf7ec389d905ca75e181a2f226cfed)
+        ;
+
+        
+    
+    
+            var marker_28d5c89f2eec8df40653ba58d3affb8c = L.marker(
+                [4.60611, -74.131418],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_7cd55ea2a57c34c7895b7a838fd93e56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_28d5c89f2eec8df40653ba58d3affb8c.setIcon(icon_7cd55ea2a57c34c7895b7a838fd93e56);
+        
+    
+        var popup_e684509171de739ebf685d02feeeb479 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ed42137da0e9eb53c4976958e2266f9e = $(`<div id="html_ed42137da0e9eb53c4976958e2266f9e" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL AV 68<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_e684509171de739ebf685d02feeeb479.setContent(html_ed42137da0e9eb53c4976958e2266f9e);
+            
+        
+
+        marker_28d5c89f2eec8df40653ba58d3affb8c.bindPopup(popup_e684509171de739ebf685d02feeeb479)
+        ;
+
+        
+    
+    
+            var marker_958234a59eb6aeac2120aa0d81e8feef = L.marker(
+                [4.767627, -74.027573],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_6bfe10bebd93bee0e58c441e81f02b8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_958234a59eb6aeac2120aa0d81e8feef.setIcon(icon_6bfe10bebd93bee0e58c441e81f02b8d);
+        
+    
+        var popup_ff1c3556aef2c057402bf17322fbf52d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9f269a5775afaf5bda66100021e1fbb6 = $(`<div id="html_9f269a5775afaf5bda66100021e1fbb6" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL CENCOSUD CALLE 190<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_ff1c3556aef2c057402bf17322fbf52d.setContent(html_9f269a5775afaf5bda66100021e1fbb6);
+            
+        
+
+        marker_958234a59eb6aeac2120aa0d81e8feef.bindPopup(popup_ff1c3556aef2c057402bf17322fbf52d)
+        ;
+
+        
+    
+    
+            var marker_8781404f3b14d9047fd0f2f6cecd6eaa = L.marker(
+                [4.524241, -74.12529],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_2a197a716fa2ed81501e46f6aa47bb2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8781404f3b14d9047fd0f2f6cecd6eaa.setIcon(icon_2a197a716fa2ed81501e46f6aa47bb2a);
+        
+    
+        var popup_6b7d69a50ccb281bb0b75fc1f4f1c5ed = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0b2b337438bea3910f91ccd4009afb9c = $(`<div id="html_0b2b337438bea3910f91ccd4009afb9c" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL EGAS AVE BOYACA<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_6b7d69a50ccb281bb0b75fc1f4f1c5ed.setContent(html_0b2b337438bea3910f91ccd4009afb9c);
+            
+        
+
+        marker_8781404f3b14d9047fd0f2f6cecd6eaa.bindPopup(popup_6b7d69a50ccb281bb0b75fc1f4f1c5ed)
+        ;
+
+        
+    
+    
+            var marker_39528cc70ada98f3beeca359a04c636f = L.marker(
+                [4.619647, -74.142879],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_34bcd258e74f16b67ac55a777efc4452 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2fd52c776a163c9cbd58c610a0fd1284 = $(`<div id="html_2fd52c776a163c9cbd58c610a0fd1284" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL CENCOSUD PRIMERA DE MAYO<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_34bcd258e74f16b67ac55a777efc4452.setContent(html_2fd52c776a163c9cbd58c610a0fd1284);
+            
+        
+
+        marker_39528cc70ada98f3beeca359a04c636f.bindPopup(popup_34bcd258e74f16b67ac55a777efc4452)
+        ;
+
+        
+    
+    
+            var marker_eb7ae1efbef635cf07432c5714d96104 = L.marker(
+                [4.634959, -74.119815],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_83968122f1d92922bebfd52866ecb3c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_eb7ae1efbef635cf07432c5714d96104.setIcon(icon_83968122f1d92922bebfd52866ecb3c0);
+        
+    
+        var popup_996f85683c6685753441f2678c6f36c9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e7a09f9d53de96d107bcf40269197e6b = $(`<div id="html_e7a09f9d53de96d107bcf40269197e6b" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL PRADERA AV 68 SAS<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_996f85683c6685753441f2678c6f36c9.setContent(html_e7a09f9d53de96d107bcf40269197e6b);
+            
+        
+
+        marker_eb7ae1efbef635cf07432c5714d96104.bindPopup(popup_996f85683c6685753441f2678c6f36c9)
+        ;
+
+        
+    
+    
+            var marker_275c3c017e26bee76b683329eef4af8e = L.marker(
+                [4.615195, -74.127403],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_ccffb68fdcc2352d914b65f3b6c4fd89 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f76f593a956357c09eb54156ba36dac4 = $(`<div id="html_f76f593a956357c09eb54156ba36dac4" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL VILLA CLAUDIA<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_ccffb68fdcc2352d914b65f3b6c4fd89.setContent(html_f76f593a956357c09eb54156ba36dac4);
+            
+        
+
+        marker_275c3c017e26bee76b683329eef4af8e.bindPopup(popup_ccffb68fdcc2352d914b65f3b6c4fd89)
+        ;
+
+        
+    
+    
+            var marker_379669e9513db41a8d8b63757b2eaf7e = L.marker(
+                [4.596495, -74.18122],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_242286cee925543a6ba1f4c33d8a7941 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_379669e9513db41a8d8b63757b2eaf7e.setIcon(icon_242286cee925543a6ba1f4c33d8a7941);
+        
+    
+        var popup_77f97cab1484284eb8d8be5e5abef565 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_72aa4512e3061c500871ad368f7791fe = $(`<div id="html_72aa4512e3061c500871ad368f7791fe" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL CENCOSUD EL TREBOL<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_77f97cab1484284eb8d8be5e5abef565.setContent(html_72aa4512e3061c500871ad368f7791fe);
+            
+        
+
+        marker_379669e9513db41a8d8b63757b2eaf7e.bindPopup(popup_77f97cab1484284eb8d8be5e5abef565)
+        ;
+
+        
+    
+    
+            var marker_fd294bcc6c6b892fd845a26b107fc410 = L.marker(
+                [4.6306226, -74.0806288],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_9e41add04b5d6a187b5209eb25aeddd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fd294bcc6c6b892fd845a26b107fc410.setIcon(icon_9e41add04b5d6a187b5209eb25aeddd4);
+        
+    
+        var popup_31637f593dac8d31f80b6d33f355631a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_17cbd474251b5b533e4759ed06f45652 = $(`<div id="html_17cbd474251b5b533e4759ed06f45652" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL ED CALLE 28<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_31637f593dac8d31f80b6d33f355631a.setContent(html_17cbd474251b5b533e4759ed06f45652);
+            
+        
+
+        marker_fd294bcc6c6b892fd845a26b107fc410.bindPopup(popup_31637f593dac8d31f80b6d33f355631a)
+        ;
+
+        
+    
+    
+            var marker_028326d3f82cf9112a21005c41a757fc = L.marker(
+                [4.640443, -74.115475],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_01e07ed4dc9b7a33e9aaa92317719e0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_028326d3f82cf9112a21005c41a757fc.setIcon(icon_01e07ed4dc9b7a33e9aaa92317719e0c);
+        
+    
+        var popup_a088afd958282c3db0e9f8e6c6d576be = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cfd5b85228739c31af6233ebcec2455d = $(`<div id="html_cfd5b85228739c31af6233ebcec2455d" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL LAS PALMAS<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_a088afd958282c3db0e9f8e6c6d576be.setContent(html_cfd5b85228739c31af6233ebcec2455d);
+            
+        
+
+        marker_028326d3f82cf9112a21005c41a757fc.bindPopup(popup_a088afd958282c3db0e9f8e6c6d576be)
+        ;
+
+        
+    
+    
+            var marker_0baa8055859e76c9ce41a1a0d3db1e93 = L.marker(
+                [4.621435, -74.091042],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_395346497c765492efad1ac9a87f14ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0baa8055859e76c9ce41a1a0d3db1e93.setIcon(icon_395346497c765492efad1ac9a87f14ca);
+        
+    
+        var popup_805028e80502436a277ce97eec94f46a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_511cbdc4d55e4440c3d96dde9e7eca8d = $(`<div id="html_511cbdc4d55e4440c3d96dde9e7eca8d" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL PALOQUEMAO<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_805028e80502436a277ce97eec94f46a.setContent(html_511cbdc4d55e4440c3d96dde9e7eca8d);
+            
+        
+
+        marker_0baa8055859e76c9ce41a1a0d3db1e93.bindPopup(popup_805028e80502436a277ce97eec94f46a)
+        ;
+
+        
+    
+    
+            var marker_db7a5a4885d7b8d4b8649324e5dc1ad7 = L.marker(
+                [4.7195477, -74.0466603],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_d45b41ed41b0d22c6f79b78c70b7a596 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_db7a5a4885d7b8d4b8649324e5dc1ad7.setIcon(icon_d45b41ed41b0d22c6f79b78c70b7a596);
+        
+    
+        var popup_55d056e983c4305e8a4cd6a0868885f7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_364dfaad84fe005337c854f90884e7d3 = $(`<div id="html_364dfaad84fe005337c854f90884e7d3" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS Terpel Contador<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_55d056e983c4305e8a4cd6a0868885f7.setContent(html_364dfaad84fe005337c854f90884e7d3);
+            
+        
+
+        marker_db7a5a4885d7b8d4b8649324e5dc1ad7.bindPopup(popup_55d056e983c4305e8a4cd6a0868885f7)
+        ;
+
+        
+    
+    
+            var marker_68f35b883f61b293586b109d418ec692 = L.marker(
+                [4.7181848, -74.0685646],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_b25a3380899f8b3f186eab32c0f0f4f2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cd9fd7251c3a39b8f16ff4d80b87ed73 = $(`<div id="html_cd9fd7251c3a39b8f16ff4d80b87ed73" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL LAS VILLAS<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_b25a3380899f8b3f186eab32c0f0f4f2.setContent(html_cd9fd7251c3a39b8f16ff4d80b87ed73);
+            
+        
+
+        marker_68f35b883f61b293586b109d418ec692.bindPopup(popup_b25a3380899f8b3f186eab32c0f0f4f2)
+        ;
+
+        
+    
+    
+            var marker_632f8f8b151e8c6361924cb0a1216733 = L.marker(
+                [4.596568, -74.155332],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_c9f92f6a787993141b43db6b153e26a4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_33bdffe9763039f2183720be9b616fe0 = $(`<div id="html_33bdffe9763039f2183720be9b616fe0" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL INCOCENTRO<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_c9f92f6a787993141b43db6b153e26a4.setContent(html_33bdffe9763039f2183720be9b616fe0);
+            
+        
+
+        marker_632f8f8b151e8c6361924cb0a1216733.bindPopup(popup_c9f92f6a787993141b43db6b153e26a4)
+        ;
+
+        
+    
+    
+            var marker_91fa423886a47d1306c978539579d897 = L.marker(
+                [4.546517, -74.087229],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_27a328c3a06400b0ccdf5dd2aa555416 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_91fa423886a47d1306c978539579d897.setIcon(icon_27a328c3a06400b0ccdf5dd2aa555416);
+        
+    
+        var popup_3c5c332d67e6f8f88b54bb8e200f368d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1047df1e08a59668327a732856eb137c = $(`<div id="html_1047df1e08a59668327a732856eb137c" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL COMBUSTIBLES ALTAMIRA LTDA<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_3c5c332d67e6f8f88b54bb8e200f368d.setContent(html_1047df1e08a59668327a732856eb137c);
+            
+        
+
+        marker_91fa423886a47d1306c978539579d897.bindPopup(popup_3c5c332d67e6f8f88b54bb8e200f368d)
+        ;
+
+        
+    
+    
+            var marker_420e331a17343aea2cf621230a2935e6 = L.marker(
+                [4.61944, -74.09002],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_9b6d39b2e92d6ce096193cc36b45827b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_420e331a17343aea2cf621230a2935e6.setIcon(icon_9b6d39b2e92d6ce096193cc36b45827b);
+        
+    
+        var popup_134071e5dff240a04c2113225f68c1f3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a9edd330efbc50d605a7972578f8b50d = $(`<div id="html_a9edd330efbc50d605a7972578f8b50d" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL CARRERA 30 CON CALLE 18<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_134071e5dff240a04c2113225f68c1f3.setContent(html_a9edd330efbc50d605a7972578f8b50d);
+            
+        
+
+        marker_420e331a17343aea2cf621230a2935e6.bindPopup(popup_134071e5dff240a04c2113225f68c1f3)
+        ;
+
+        
+    
+    
+            var marker_87184733225870fc75508907b7a0bdfe = L.marker(
+                [4.626463, -74.108244],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_a4aadda38b322c0098229f80bcaaa0bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_87184733225870fc75508907b7a0bdfe.setIcon(icon_a4aadda38b322c0098229f80bcaaa0bb);
+        
+    
+        var popup_bc6a2a9635046e47d18660dba2359052 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d51d09bb6db09fabe0e070036701231c = $(`<div id="html_d51d09bb6db09fabe0e070036701231c" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL DISTRIBUIDORA LH CARRERA LIMITADA<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_bc6a2a9635046e47d18660dba2359052.setContent(html_d51d09bb6db09fabe0e070036701231c);
+            
+        
+
+        marker_87184733225870fc75508907b7a0bdfe.bindPopup(popup_bc6a2a9635046e47d18660dba2359052)
+        ;
+
+        
+    
+    
+            var marker_4ffd35abc769565fa7207eed26a1d68c = L.marker(
+                [4.692917, -74.121444],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_8dc775f4576f419d79c85101a7c41ea2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4ffd35abc769565fa7207eed26a1d68c.setIcon(icon_8dc775f4576f419d79c85101a7c41ea2);
+        
+    
+        var popup_2ea222d77066200d4717bf495dbd6b12 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b2da505ac24ad902a4faeb120b31042b = $(`<div id="html_b2da505ac24ad902a4faeb120b31042b" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL ENGATIVA<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_2ea222d77066200d4717bf495dbd6b12.setContent(html_b2da505ac24ad902a4faeb120b31042b);
+            
+        
+
+        marker_4ffd35abc769565fa7207eed26a1d68c.bindPopup(popup_2ea222d77066200d4717bf495dbd6b12)
+        ;
+
+        
+    
+    
+            var marker_bf5b11f9dfcf1c21843d8e1e70f490c7 = L.marker(
+                [4.627041, -74.065635],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_5d147c4deddd5bf4f8981f8851f76b41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bf5b11f9dfcf1c21843d8e1e70f490c7.setIcon(icon_5d147c4deddd5bf4f8981f8851f76b41);
+        
+    
+        var popup_f0c915965c2dba07910110ce9b04aacf = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a1340b6524bd9ab5bebb04f0675cd60b = $(`<div id="html_a1340b6524bd9ab5bebb04f0675cd60b" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL JAVERIANA<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_f0c915965c2dba07910110ce9b04aacf.setContent(html_a1340b6524bd9ab5bebb04f0675cd60b);
+            
+        
+
+        marker_bf5b11f9dfcf1c21843d8e1e70f490c7.bindPopup(popup_f0c915965c2dba07910110ce9b04aacf)
+        ;
+
+        
+    
+    
+            var marker_c9055a072e39075332cb16e3747d0048 = L.marker(
+                [4.595079, -74.149671],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_fd15104c3461e50e94d474280a980a30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c9055a072e39075332cb16e3747d0048.setIcon(icon_fd15104c3461e50e94d474280a980a30);
+        
+    
+        var popup_727ca45c45eeef9f200fe8b99a08e54a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_eecd2570e0f41e6e3785c5d2727690f4 = $(`<div id="html_eecd2570e0f41e6e3785c5d2727690f4" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL CENCOSUD SEVILLANA<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_727ca45c45eeef9f200fe8b99a08e54a.setContent(html_eecd2570e0f41e6e3785c5d2727690f4);
+            
+        
+
+        marker_c9055a072e39075332cb16e3747d0048.bindPopup(popup_727ca45c45eeef9f200fe8b99a08e54a)
+        ;
+
+        
+    
+    
+            var marker_e93dd10e466cabbbbcf36718d932db5f = L.marker(
+                [4.582491, -74.079075],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_60834a5a05f25d4c8b0208ad8fc0de26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e93dd10e466cabbbbcf36718d932db5f.setIcon(icon_60834a5a05f25d4c8b0208ad8fc0de26);
+        
+    
+        var popup_323477d7e3cfd2cc09bbee82acec5917 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_798f60b373dbb45a81f4684de2cbbf2c = $(`<div id="html_798f60b373dbb45a81f4684de2cbbf2c" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL BUENOS AIRES<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_323477d7e3cfd2cc09bbee82acec5917.setContent(html_798f60b373dbb45a81f4684de2cbbf2c);
+            
+        
+
+        marker_e93dd10e466cabbbbcf36718d932db5f.bindPopup(popup_323477d7e3cfd2cc09bbee82acec5917)
+        ;
+
+        
+    
+    
+            var marker_fdef47d4af8236edf4e91723e547c4cd = L.marker(
+                [4.6884741, -74.0619861],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_893d0835d6a5cdd6d1403e0c4b7da51a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2265af99cca51337c91a1bdf07c53a5b = $(`<div id="html_2265af99cca51337c91a1bdf07c53a5b" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL PASADENA<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_893d0835d6a5cdd6d1403e0c4b7da51a.setContent(html_2265af99cca51337c91a1bdf07c53a5b);
+            
+        
+
+        marker_fdef47d4af8236edf4e91723e547c4cd.bindPopup(popup_893d0835d6a5cdd6d1403e0c4b7da51a)
+        ;
+
+        
+    
+    
+            var marker_5e9ae497ead2b41deefceee9f5c5811b = L.marker(
+                [4.628312, -74.111852],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_b8fab870ea63b289c3987bcfcd3ca168 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5e9ae497ead2b41deefceee9f5c5811b.setIcon(icon_b8fab870ea63b289c3987bcfcd3ca168);
+        
+    
+        var popup_cd19c084f4415f36ab2bf23d018328ed = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ac2013f8668456d67bb959a8da31b5f2 = $(`<div id="html_ac2013f8668456d67bb959a8da31b5f2" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL AMERICAS II<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_cd19c084f4415f36ab2bf23d018328ed.setContent(html_ac2013f8668456d67bb959a8da31b5f2);
+            
+        
+
+        marker_5e9ae497ead2b41deefceee9f5c5811b.bindPopup(popup_cd19c084f4415f36ab2bf23d018328ed)
+        ;
+
+        
+    
+    
+            var marker_a2c70e23e28ac0ed4194325ece961201 = L.marker(
+                [4.67582572935674, -74.14058802748858],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_f437355d50481e0a57f292be93a68457 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a2c70e23e28ac0ed4194325ece961201.setIcon(icon_f437355d50481e0a57f292be93a68457);
+        
+    
+        var popup_c4fff2f8561e06c0bf2a2bc14dbaa31b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0207eb55594ee687a41f328f1134c99d = $(`<div id="html_0207eb55594ee687a41f328f1134c99d" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL  FONTIBON FERROCARRIL<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_c4fff2f8561e06c0bf2a2bc14dbaa31b.setContent(html_0207eb55594ee687a41f328f1134c99d);
+            
+        
+
+        marker_a2c70e23e28ac0ed4194325ece961201.bindPopup(popup_c4fff2f8561e06c0bf2a2bc14dbaa31b)
+        ;
+
+        
+    
+    
+            var marker_f6dfb87c747262db20df4b26f92e1b4a = L.marker(
+                [4.652155, -74.11255],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_e7f23b12bd7b0cbc5290b705e9611dc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f6dfb87c747262db20df4b26f92e1b4a.setIcon(icon_e7f23b12bd7b0cbc5290b705e9611dc6);
+        
+    
+        var popup_e8af099e6d26a9d2524f34f9ecf9de96 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3456413e84210daf3938cb038d4dacfc = $(`<div id="html_3456413e84210daf3938cb038d4dacfc" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL TERMINAL BOGOTA<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_e8af099e6d26a9d2524f34f9ecf9de96.setContent(html_3456413e84210daf3938cb038d4dacfc);
+            
+        
+
+        marker_f6dfb87c747262db20df4b26f92e1b4a.bindPopup(popup_e8af099e6d26a9d2524f34f9ecf9de96)
+        ;
+
+        
+    
+    
+            var marker_a23e0fad312b9add506c0c8efd4fc696 = L.marker(
+                [4.624585, -74.179165],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_81b28e9204df8e7ecdcefeb61590fd77 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d50b93587888d75758f6e54923978f0b = $(`<div id="html_d50b93587888d75758f6e54923978f0b" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL BETANIA<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_81b28e9204df8e7ecdcefeb61590fd77.setContent(html_d50b93587888d75758f6e54923978f0b);
+            
+        
+
+        marker_a23e0fad312b9add506c0c8efd4fc696.bindPopup(popup_81b28e9204df8e7ecdcefeb61590fd77)
+        ;
+
+        
+    
+    
+            var marker_7649f9b62a5d9abaa8205a0666256ffb = L.marker(
+                [4.668201, -74.109634],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_d576922d36e2dbe8ec84aacde862646b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7649f9b62a5d9abaa8205a0666256ffb.setIcon(icon_d576922d36e2dbe8ec84aacde862646b);
+        
+    
+        var popup_17cfb5a59dc0cf37dcdcc2c6364f8958 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_10c5dad7009d8cecafa50c8389ffed76 = $(`<div id="html_10c5dad7009d8cecafa50c8389ffed76" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL LA 49 NORMANDIA<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_17cfb5a59dc0cf37dcdcc2c6364f8958.setContent(html_10c5dad7009d8cecafa50c8389ffed76);
+            
+        
+
+        marker_7649f9b62a5d9abaa8205a0666256ffb.bindPopup(popup_17cfb5a59dc0cf37dcdcc2c6364f8958)
+        ;
+
+        
+    
+    
+            var marker_102f72d460be3ccb0fd7792525b4cd7c = L.marker(
+                [4.6887257, -74.0472863],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_4e24931654d273e04ac4eb5d040a4b48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_102f72d460be3ccb0fd7792525b4cd7c.setIcon(icon_4e24931654d273e04ac4eb5d040a4b48);
+        
+    
+        var popup_e51ede871c981096ca2ae8a918c17856 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_24e0919940e948dda6d3c6010e93ae8e = $(`<div id="html_24e0919940e948dda6d3c6010e93ae8e" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL PASEO DE LA 15<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_e51ede871c981096ca2ae8a918c17856.setContent(html_24e0919940e948dda6d3c6010e93ae8e);
+            
+        
+
+        marker_102f72d460be3ccb0fd7792525b4cd7c.bindPopup(popup_e51ede871c981096ca2ae8a918c17856)
+        ;
+
+        
+    
+    
+            var marker_6f5ce30ad003a1dfb9713870592bd3d1 = L.marker(
+                [4.645516, -74.130368],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_f67beff757f8dfa6848e4116429ba07a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6f5ce30ad003a1dfb9713870592bd3d1.setIcon(icon_f67beff757f8dfa6848e4116429ba07a);
+        
+    
+        var popup_c10afa2f56ff822f53f712eabf9d8948 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a206c34eefa494df2a182fe9c01ce0b6 = $(`<div id="html_a206c34eefa494df2a182fe9c01ce0b6" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL VILLA ALSACIA<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_c10afa2f56ff822f53f712eabf9d8948.setContent(html_a206c34eefa494df2a182fe9c01ce0b6);
+            
+        
+
+        marker_6f5ce30ad003a1dfb9713870592bd3d1.bindPopup(popup_c10afa2f56ff822f53f712eabf9d8948)
+        ;
+
+        
+    
+    
+            var marker_9bb5f2bc82bc27aee9ac794a11673588 = L.marker(
+                [4.578555, -74.117118],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_80d24632ae4e9a8301c753e91be9ba3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9bb5f2bc82bc27aee9ac794a11673588.setIcon(icon_80d24632ae4e9a8301c753e91be9ba3b);
+        
+    
+        var popup_47edb2f7d776dba703d46157bcb6cae6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_533f0acd8bfe006289965a09cd360c66 = $(`<div id="html_533f0acd8bfe006289965a09cd360c66" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL SANTANDER<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_47edb2f7d776dba703d46157bcb6cae6.setContent(html_533f0acd8bfe006289965a09cd360c66);
+            
+        
+
+        marker_9bb5f2bc82bc27aee9ac794a11673588.bindPopup(popup_47edb2f7d776dba703d46157bcb6cae6)
+        ;
+
+        
+    
+    
+            var marker_e0d5e06f0e7de45f5da416cbfc964777 = L.marker(
+                [4.697134, -74.050087],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_010fafe5dd99ed9426f334991072fdac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e0d5e06f0e7de45f5da416cbfc964777.setIcon(icon_010fafe5dd99ed9426f334991072fdac);
+        
+    
+        var popup_d21805d967410238ff08cded3dcd3641 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1d9c2880c2e4b7f32c61aa03320ebf0e = $(`<div id="html_1d9c2880c2e4b7f32c61aa03320ebf0e" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL SAN PATRICIO<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_d21805d967410238ff08cded3dcd3641.setContent(html_1d9c2880c2e4b7f32c61aa03320ebf0e);
+            
+        
+
+        marker_e0d5e06f0e7de45f5da416cbfc964777.bindPopup(popup_d21805d967410238ff08cded3dcd3641)
+        ;
+
+        
+    
+    
+            var marker_4d43bae682ed8ff81f45885407f07cd7 = L.marker(
+                [4.6966, -74.0845536],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_7655b642ec7b72a36577635b784f6f8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4d43bae682ed8ff81f45885407f07cd7.setIcon(icon_7655b642ec7b72a36577635b784f6f8e);
+        
+    
+        var popup_dd57de9e5e22b29664e3d9e6eaf5e1c6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a87046fffb7424edefc76445ac8a2fd3 = $(`<div id="html_a87046fffb7424edefc76445ac8a2fd3" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL PONTEVEDRA<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_dd57de9e5e22b29664e3d9e6eaf5e1c6.setContent(html_a87046fffb7424edefc76445ac8a2fd3);
+            
+        
+
+        marker_4d43bae682ed8ff81f45885407f07cd7.bindPopup(popup_dd57de9e5e22b29664e3d9e6eaf5e1c6)
+        ;
+
+        
+    
+    
+            var marker_174c3812cec05b984442dac8ed402fb2 = L.marker(
+                [4.630853, -74.193787],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_0218b38180a0567881d36843efb42827 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_174c3812cec05b984442dac8ed402fb2.setIcon(icon_0218b38180a0567881d36843efb42827);
+        
+    
+        var popup_cda247583df1b89300a72ab2312ad180 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1ab7b4d636802df788971080aaab8ab6 = $(`<div id="html_1ab7b4d636802df788971080aaab8ab6" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL CENCOSUD BOSA<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_cda247583df1b89300a72ab2312ad180.setContent(html_1ab7b4d636802df788971080aaab8ab6);
+            
+        
+
+        marker_174c3812cec05b984442dac8ed402fb2.bindPopup(popup_cda247583df1b89300a72ab2312ad180)
+        ;
+
+        
+    
+    
+            var marker_3892cff4e6c36beb3b7d21e0f4101880 = L.marker(
+                [4.590813, -74.125353],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_0930d9292ffa2cf3df4efd36b8ea1ab4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3892cff4e6c36beb3b7d21e0f4101880.setIcon(icon_0930d9292ffa2cf3df4efd36b8ea1ab4);
+        
+    
+        var popup_414154aa86c20b6236c65ad37f244d5d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5714f4d5f755ad866f61e6509fcd12db = $(`<div id="html_5714f4d5f755ad866f61e6509fcd12db" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL MATATIGRES<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_414154aa86c20b6236c65ad37f244d5d.setContent(html_5714f4d5f755ad866f61e6509fcd12db);
+            
+        
+
+        marker_3892cff4e6c36beb3b7d21e0f4101880.bindPopup(popup_414154aa86c20b6236c65ad37f244d5d)
+        ;
+
+        
+    
+    
+            var marker_bf20962224162694e01a20396ffebc07 = L.marker(
+                [4.584275, -74.097835],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_5a5def521b9687f563dc2446b2fd862c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bf20962224162694e01a20396ffebc07.setIcon(icon_5a5def521b9687f563dc2446b2fd862c);
+        
+    
+        var popup_7fc2254227c1cee66f07fac0ca8b69da = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8f77b4805614d7db1d5a99f5c2dc0410 = $(`<div id="html_8f77b4805614d7db1d5a99f5c2dc0410" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL ROOSVELT<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_7fc2254227c1cee66f07fac0ca8b69da.setContent(html_8f77b4805614d7db1d5a99f5c2dc0410);
+            
+        
+
+        marker_bf20962224162694e01a20396ffebc07.bindPopup(popup_7fc2254227c1cee66f07fac0ca8b69da)
+        ;
+
+        
+    
+    
+            var marker_34e321609946b29448a15f9bfb8b8cac = L.marker(
+                [4.591202, -74.098816],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_5b305f666b5481f388c58d62dc1d3390 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9e600780d69e48e3a4e440b7ded7879f = $(`<div id="html_9e600780d69e48e3a4e440b7ded7879f" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL EL CARMEN FP S A S<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_5b305f666b5481f388c58d62dc1d3390.setContent(html_9e600780d69e48e3a4e440b7ded7879f);
+            
+        
+
+        marker_34e321609946b29448a15f9bfb8b8cac.bindPopup(popup_5b305f666b5481f388c58d62dc1d3390)
+        ;
+
+        
+    
+    
+            var marker_22ec62384f1296cce7cabd5a5b021c7a = L.marker(
+                [4.7507904, -74.0434417],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_34c8da5fe4aca6d9dc2001dd593bbfcd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_22ec62384f1296cce7cabd5a5b021c7a.setIcon(icon_34c8da5fe4aca6d9dc2001dd593bbfcd);
+        
+    
+        var popup_d2e6a79b5bfc60d2b69d7f06c44c7e51 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_979703636f33d641d23d3e8e0ae4415a = $(`<div id="html_979703636f33d641d23d3e8e0ae4415a" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL LOS ABUELOS<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_d2e6a79b5bfc60d2b69d7f06c44c7e51.setContent(html_979703636f33d641d23d3e8e0ae4415a);
+            
+        
+
+        marker_22ec62384f1296cce7cabd5a5b021c7a.bindPopup(popup_d2e6a79b5bfc60d2b69d7f06c44c7e51)
+        ;
+
+        
+    
+    
+            var marker_21829744b6b96e4a1e7bd5273b039ce4 = L.marker(
+                [4.819529, -74.0346628],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_c49498b259f732e124aa3793f30fc42a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_21829744b6b96e4a1e7bd5273b039ce4.setIcon(icon_c49498b259f732e124aa3793f30fc42a);
+        
+    
+        var popup_c95a3521098ab7deb4f9cc6539947e70 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_52c05ff6f6e0456a924f83c89c15d9b8 = $(`<div id="html_52c05ff6f6e0456a924f83c89c15d9b8" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL MOTOMART<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_c95a3521098ab7deb4f9cc6539947e70.setContent(html_52c05ff6f6e0456a924f83c89c15d9b8);
+            
+        
+
+        marker_21829744b6b96e4a1e7bd5273b039ce4.bindPopup(popup_c95a3521098ab7deb4f9cc6539947e70)
+        ;
+
+        
+    
+    
+            var marker_f7df8ec52196365040e7ee5a5405e7d4 = L.marker(
+                [4.588516, -74.091725],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_e0bde42c97ef587bee3cd901374456b8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2e3efd588d36c3c169a424788191cb97 = $(`<div id="html_2e3efd588d36c3c169a424788191cb97" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL LA BOGOTANA<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_e0bde42c97ef587bee3cd901374456b8.setContent(html_2e3efd588d36c3c169a424788191cb97);
+            
+        
+
+        marker_f7df8ec52196365040e7ee5a5405e7d4.bindPopup(popup_e0bde42c97ef587bee3cd901374456b8)
+        ;
+
+        
+    
+    
+            var marker_e70af20ecff2d6a413afa086bdc2a293 = L.marker(
+                [4.598133, -74.145314],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_950033bd080ccad098913c16c36456a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e70af20ecff2d6a413afa086bdc2a293.setIcon(icon_950033bd080ccad098913c16c36456a7);
+        
+    
+        var popup_c4339118fea60b51d78cede2459a8cba = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8f2d4a3c689485e32bcb42213d198339 = $(`<div id="html_8f2d4a3c689485e32bcb42213d198339" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL EL TRIANGULO<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_c4339118fea60b51d78cede2459a8cba.setContent(html_8f2d4a3c689485e32bcb42213d198339);
+            
+        
+
+        marker_e70af20ecff2d6a413afa086bdc2a293.bindPopup(popup_c4339118fea60b51d78cede2459a8cba)
+        ;
+
+        
+    
+    
+            var marker_fc1ebdb2995cf1c24fffa0fcfa5e8967 = L.marker(
+                [4.7388066, -74.0653419],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_42661368d54b82103ad3a8fc2ac80126 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "taxi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fc1ebdb2995cf1c24fffa0fcfa5e8967.setIcon(icon_42661368d54b82103ad3a8fc2ac80126);
+        
+    
+        var popup_3e91d32925dd0c583562a7d386e4796c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_34951d34b4c8b2014aea7d15eb8e7cae = $(`<div id="html_34951d34b4c8b2014aea7d15eb8e7cae" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Taxistas</b><br>         EDS TERPEL COMPOSTELA<br>         <span style="color:blue;">Premio: Tinto 180 ml</span>     </div>     </div>`)[0];
+                popup_3e91d32925dd0c583562a7d386e4796c.setContent(html_34951d34b4c8b2014aea7d15eb8e7cae);
+            
+        
+
+        marker_fc1ebdb2995cf1c24fffa0fcfa5e8967.bindPopup(popup_3e91d32925dd0c583562a7d386e4796c)
+        ;
+
+        
+    
+    
+            var marker_d594842526c11b8feaaff459cebf958f = L.marker(
+                [4.69381, -74.123248],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_4a9ff7c7108d694587a202f0395d2252 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d594842526c11b8feaaff459cebf958f.setIcon(icon_4a9ff7c7108d694587a202f0395d2252);
+        
+    
+        var popup_063114a0cfcaf009d6cf482deb96a658 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6f61e08c836cb14dada7284eb3cd9f22 = $(`<div id="html_6f61e08c836cb14dada7284eb3cd9f22" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         INV BELTRAN AWO SAS- EDS TERPEL PORTAL DE ALAMOS<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_063114a0cfcaf009d6cf482deb96a658.setContent(html_6f61e08c836cb14dada7284eb3cd9f22);
+            
+        
+
+        marker_d594842526c11b8feaaff459cebf958f.bindPopup(popup_063114a0cfcaf009d6cf482deb96a658)
+        ;
+
+        
+    
+    
+            var marker_bad96903f01f8e74120141b8d18606e7 = L.marker(
+                [4.6738921, -74.0885916],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_0237cdd6b6c9ba85fb74473189acc36d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bad96903f01f8e74120141b8d18606e7.setIcon(icon_0237cdd6b6c9ba85fb74473189acc36d);
+        
+    
+        var popup_0952c5d6d6b15e59f75bb9edfdfbe1a6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4d75d6730a8cb0f9bc86f962131823f4 = $(`<div id="html_4d75d6730a8cb0f9bc86f962131823f4" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Moteros</b><br>         EDS TERPEL CRUZ ROJA<br>         <span style="color:blue;">Premio: doble acumulación (doble puntos)</span>     </div>     </div>`)[0];
+                popup_0952c5d6d6b15e59f75bb9edfdfbe1a6.setContent(html_4d75d6730a8cb0f9bc86f962131823f4);
+            
+        
+
+        marker_bad96903f01f8e74120141b8d18606e7.bindPopup(popup_0952c5d6d6b15e59f75bb9edfdfbe1a6)
+        ;
+
+        
+    
+    
+            var marker_33121c3bb379899ad965762b1eccecc3 = L.marker(
+                [4.696334, -74.141758],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_a325be7e95dbe2acd5f33acc259893e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_33121c3bb379899ad965762b1eccecc3.setIcon(icon_a325be7e95dbe2acd5f33acc259893e9);
+        
+    
+        var popup_b79e24825bf58cd77de01b2c497425b8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7bc2b124cc56e10d963ac552409317a1 = $(`<div id="html_7bc2b124cc56e10d963ac552409317a1" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL EL DORADO<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_b79e24825bf58cd77de01b2c497425b8.setContent(html_7bc2b124cc56e10d963ac552409317a1);
+            
+        
+
+        marker_33121c3bb379899ad965762b1eccecc3.bindPopup(popup_b79e24825bf58cd77de01b2c497425b8)
+        ;
+
+        
+    
+    
+            var marker_59d1c0c99e968f1c403ed80c3082cb89 = L.marker(
+                [4.653748, -74.6583048],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_9a367a332a3465bdd2d2c9cc259a2873 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_59d1c0c99e968f1c403ed80c3082cb89.setIcon(icon_9a367a332a3465bdd2d2c9cc259a2873);
+        
+    
+        var popup_31d563294666aa5bb15d14a3048f2def = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f57ed9f8629212023cf92e0ce8a7f411 = $(`<div id="html_f57ed9f8629212023cf92e0ce8a7f411" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL MILENIUM GAS CALLE 13<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_31d563294666aa5bb15d14a3048f2def.setContent(html_f57ed9f8629212023cf92e0ce8a7f411);
+            
+        
+
+        marker_59d1c0c99e968f1c403ed80c3082cb89.bindPopup(popup_31d563294666aa5bb15d14a3048f2def)
+        ;
+
+        
+    
+    
+            var marker_93565e241b60372fb6d51545d27fcf74 = L.marker(
+                [4.661681, -74.073322],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+        var popup_79613c0d871c11eb9b799f1a2483a36e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5216908bdbd7a0d0a7f11dad705b81dc = $(`<div id="html_5216908bdbd7a0d0a7f11dad705b81dc" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b></b><br>         EDS TERPEL JUAN MARTIN<br>         <span style="color:blue;"></span>     </div>     </div>`)[0];
+                popup_79613c0d871c11eb9b799f1a2483a36e.setContent(html_5216908bdbd7a0d0a7f11dad705b81dc);
+            
+        
+
+        marker_93565e241b60372fb6d51545d27fcf74.bindPopup(popup_79613c0d871c11eb9b799f1a2483a36e)
+        ;
+
+        
+    
+    
+            var marker_12ece46328efd468769fdc367df0a2ff = L.marker(
+                [4.630134, -74.109701],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_b3e0f25b489ea088a7a6c8fdd1d57223 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_12ece46328efd468769fdc367df0a2ff.setIcon(icon_b3e0f25b489ea088a7a6c8fdd1d57223);
+        
+    
+        var popup_bc4b2ca83a64b2051390bad2acff8b81 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ae321e4e83857b91fe77cda1bf3a8b35 = $(`<div id="html_ae321e4e83857b91fe77cda1bf3a8b35" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL AUTOMOTRIZ COLON<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_bc4b2ca83a64b2051390bad2acff8b81.setContent(html_ae321e4e83857b91fe77cda1bf3a8b35);
+            
+        
+
+        marker_12ece46328efd468769fdc367df0a2ff.bindPopup(popup_bc4b2ca83a64b2051390bad2acff8b81)
+        ;
+
+        
+    
+    
+            var marker_30084bf89f48dfe60e0d5c983e078060 = L.marker(
+                [4.7190936, -74.0553185],
+                {}
+            ).addTo(map_16ca6e8cd4930974d5141b41de283458);
+        
+    
+            var icon_0596052758b1f306c1f09597252aba23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_30084bf89f48dfe60e0d5c983e078060.setIcon(icon_0596052758b1f306c1f09597252aba23);
+        
+    
+        var popup_7fd2cb6ac8d9ca3508358db038de1d5f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0465d54bb03267edc7b4b4d79884ba64 = $(`<div id="html_0465d54bb03267edc7b4b4d79884ba64" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 16px;">         <b>Camioneros</b><br>         EDS TERPEL BAZAR 134<br>         <span style="color:blue;">Premio: Pastel</span>     </div>     </div>`)[0];
+                popup_7fd2cb6ac8d9ca3508358db038de1d5f.setContent(html_0465d54bb03267edc7b4b4d79884ba64);
+            
+        
+
+        marker_30084bf89f48dfe60e0d5c983e078060.bindPopup(popup_7fd2cb6ac8d9ca3508358db038de1d5f)
+        ;
+
+        
+    
+</script>
+</html>
